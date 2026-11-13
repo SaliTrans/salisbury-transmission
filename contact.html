@@ -1,0 +1,276 @@
+
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Salisbury Transmission Specialists</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Main website header -->
+    <header class="site-header">
+
+        <img src="images/logo.svg"
+     alt="Salisbury Transmission Specialists"
+     class="site-logo">
+
+        <div class="header-title">
+            <h1>Salisbury Transmission Specialists</h1>
+        </div>
+
+        <div class="header-contact">
+            <a href="contact.html" class="contact-button">Contact Us</a>
+        </div>
+
+    </header>
+
+
+    <!-- Main navigation -->
+    <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="faq.html">FAQs</a>
+        <a href="services.html">Services</a>
+    </nav>
+
+
+    <!-- Main page content -->
+    <main class="page-container">
+
+        <!-- Page heading -->
+        <section class="page-heading">
+            <h2>Contact Us</h2>
+            <p>Tell us how we can help</p>
+        </section>
+
+
+        <!-- Contact form content -->
+        <section class="contact-content">
+
+            <div class="contact-intro">
+                <p>
+                    Need a transmission serviced, repaired or inspected?
+                    Fill out the form below and provide as much information
+                    as you can. We'll get back to you as soon as possible.
+                </p>
+            </div>
+
+
+            <form id="contact-form" class="contact-form">
+
+                <!-- SERVICE REQUIRED -->
+                <section class="form-section">
+                    <h2>What Do You Need?</h2>
+
+                    <div class="form-group">
+                        <label for="service">Enquiry Type *</label>
+
+                        <select id="service" name="service" required>
+                            <option value="">Please select an option</option>
+                            <option value="Transmission Service">
+                                Transmission Service
+                            </option>
+                            <option value="Transmission Repair / Overhaul">
+                                Transmission Repair / Overhaul
+                            </option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                </section>
+
+
+                <!-- CUSTOMER DETAILS -->
+                <section class="form-section">
+                    <h2>Your Details</h2>
+
+                    <div class="form-grid">
+
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Your name"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="Your phone number"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="email">Email Address *</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="Your email address"
+                                required
+                            >
+                        </div>
+
+                    </div>
+                </section>
+
+
+                <!-- VEHICLE DETAILS -->
+                <section class="form-section">
+                    <h2>Vehicle Details</h2>
+
+                    <div class="form-grid">
+
+                        <div class="form-group">
+                            <label for="rego">Registration Number</label>
+                            <input
+                                type="text"
+                                id="rego"
+                                name="rego"
+                                placeholder="Vehicle rego"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="transmission">Transmission Type</label>
+                            <input
+                                type="text"
+                                id="transmission"
+                                name="transmission"
+                                placeholder="e.g. 6L80, 4L60E, ZF 6HP"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="engine">Engine Size</label>
+                            <input
+                                type="text"
+                                id="engine"
+                                name="engine"
+                                placeholder="e.g. 5.7L V8"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="make">Vehicle Make</label>
+                            <input
+                                type="text"
+                                id="make"
+                                name="make"
+                                placeholder="e.g. Holden"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="model">Vehicle Model</label>
+                            <input
+                                type="text"
+                                id="model"
+                                name="model"
+                                placeholder="e.g. Commodore"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="year">Vehicle Year</label>
+                            <input
+                                type="text"
+                                id="year"
+                                name="year"
+                                placeholder="e.g. 2012"
+                            >
+                        </div>
+
+                    </div>
+                </section>
+
+
+                <!-- MESSAGE -->
+                <section class="form-section">
+                    <h2>Tell Us A Bit More</h2>
+
+                    <div class="form-group">
+                        <label for="message">Your Message *</label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Describe what you need help with, any symptoms you're experiencing, or any other useful information..."
+                            required
+                        ></textarea>
+                    </div>
+                </section>
+
+
+                <!-- SUBMIT -->
+                <div class="form-submit">
+                    <p>* Required fields</p>
+
+                    <button type="submit" class="read-more" data-fs-submit-btn>
+                        Send Enquiry
+                    </button>
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- Website footer -->
+    <footer class="site-footer">
+        <div class="footer-main">
+            <h2>Salisbury Transmission Specialists</h2>
+            <p>Transmission Repairs &amp; Service Since 1983</p>
+
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="faq.html">FAQs</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                &copy; 2026 Salisbury Transmission Specialists.
+                All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+    window.formspree =
+        window.formspree ||
+        function () {
+            (formspree.q = formspree.q || []).push(arguments);
+        };
+
+    formspree('initForm', {
+        formElement: '#contact-form',
+        formId: 'mnpdqbpw',
+
+        onSuccess: function () {
+            window.location.href = 'thank-you.html';
+        }
+    });
+    </script>
+
+    <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+
+</body>
+</html>
