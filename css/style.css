@@ -101,6 +101,17 @@ a {
     color: var(--white);
 }
 
+@media (max-width: 600px) {
+    .header-title h1 {
+        text-decoration-thickness: 3px;
+    }
+
+    .contact-button {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+        border-width: 1px;
+    }
+}
 
 /* NAVIGATION BAR */
 
