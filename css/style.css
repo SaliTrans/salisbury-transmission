@@ -994,3 +994,13 @@ a {
     height: 80px;
     object-fit: contain;
 }
+
+.social-link img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.2s ease;
+}
+
+.social-link:hover img {
+    transform: scale(1.1);
+}
